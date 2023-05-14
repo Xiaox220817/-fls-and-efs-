@@ -1,12 +1,3 @@
-# # 列表去重方法
-# book_name_list = ["吴起", "西峰", "安塞", "吴起", "吴起"]
-# print(book_name_list)
-# new_book_name_list = set(book_name_list)
-# print(new_book_name_list)
-# # 通过子站地址查询安装位置
-# a_dict = {'333': "悦乐111线13杆", '335': "悦乐112线1杆"}
-# b = input("请输入子站地址")
-# print(f"子站地址{b},"+"安装位置为"+a_dict.get(b, "当前子站地址不存在"))
 import openpyxl as vb
 import openpyxl as vb
 workbook_name = input("请输入用户单位名称，；例如西峰电力大队，输入西峰 ：")
